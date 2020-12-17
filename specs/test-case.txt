@@ -1,0 +1,30 @@
+## TEST CASE LIKE & UNLIKE RESTAURANT
+
+Alur Use Case:
+1. Tampilkan halaman restaurant.
+2. Bila restaurant ini belum disukai, tampilkan widget untuk menyukai restaurant. Widget ini berbentuk hati kosong.
+3. Bila restaurant sudah disukai, tampilkan widget berbentuk hati penuh. Pengguna dapat membatalkan kesukaannya pada restaurant ini.
+4. Memberi nama yang lebih berbeda untuk createLikeButtonTemplate dan createLikedButtonTemplate.
+
+Skenario Menyukai Restaurant:
+1. Restaurant belum disukai.
+2. Widget untuk menyukai restaurant ditampilkan.
+3. Widget menyukai restaurant ditekan oleh pengguna.
+4. Restaurant ditambahkan ke daftar restaurant yang disukai.
+    * Ternyata restaurant sudah disukai:
+        - Tidak perlu menyimpan kembali.
+    
+    * Data restaurant tidak memiliki ID:
+        - Sistem tidak memproses penyimpanan.
+        - Sistem tidak gagal.
+
+Skenario Batal Menyukai Restaurant:
+1. Restaurant sudah disukai.
+2. Widget untuk batal menyukai restaurant ditampilkan.
+3. Widget pembatalan ditekan oleh pengguna.
+4. Restaurant dihapus dari daftar restaurant yang disukai.
+    * Ternyata restaurant tidak ada dalam daftar restaurant yang disukai.
+    
+Keterangan:
+- Alur positif dapat dilihat pada poin berangka.
+- Alur negatif dapat dilihat pada poin huruf.

@@ -1,0 +1,25 @@
+ol.breadcrumb {
+    padding: .8rem;
+    margin-top: 3.5rem;
+    list-style: none;
+}
+
+ol.breadcrumb li {
+    display: inline;
+    font-size: .8rem;
+}
+
+ol.breadcrumb li+li:before {
+    padding: 8px;
+    color: rgb(61, 60, 60);
+    content: "/\00a0";
+}
+
+ol.breadcrumb li a {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+ol.breadcrumb li a:hover {
+    color: #ff9800;
+}

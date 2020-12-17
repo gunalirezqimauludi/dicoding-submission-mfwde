@@ -1,0 +1,378 @@
+[{
+        "id": "4kcowlqdz6c7bqjgi8",
+        "name": "Air",
+        "category": "Water",
+        "description": "Air yang mengandung mineral atau bahan-bahan larut lain.",
+        "picture": {
+            "small": "/assets/images/menus/air-small.jpg",
+            "medium": "/assets/images/menus/air-medium.jpg",
+            "large": "/assets/images/menus/air-large.jpg"
+        },
+        "rating": 4.8,
+        "time": 10
+    },
+    {
+        "id": "uckcowlqdzljx8i0qu2",
+        "name": "Bebek crepes",
+        "category": "Meat",
+        "description": "Sebuah hidangan yang mudah disiapkan dan lezat untuk dinikmati sebagai camilan.",
+        "picture": {
+            "small": "/assets/images/menus/bebek-crepes-small.jpg",
+            "medium": "/assets/images/menus/bebek-crepes-medium.jpg",
+            "large": "/assets/images/menus/bebek-crepes-large.jpg"
+        },
+        "rating": 4.6,
+        "time": 15
+    },
+    {
+        "id": "ddkcowlqdzfe8bbxoaz",
+        "name": "Coklat panas",
+        "category": "Water",
+        "description": "minuman panas yang dibuat dari cokelat atau kakao bubuk dan gula, dengan air.",
+        "picture": {
+            "small": "/assets/images/menus/coklat-panas-small.jpg",
+            "medium": "/assets/images/menus/coklat-panas-medium.jpg",
+            "large": "/assets/images/menus/coklat-panas-large.jpg"
+        },
+        "rating": 3.8,
+        "time": 3
+    },
+    {
+        "id": "68kcowlqdzik1zljmlf",
+        "name": "Daging Sapi",
+        "category": "Meat",
+        "description": "Daging empuk berbalur lada hitam menyajikan rasa gurih pedas yang sempurna.",
+        "picture": {
+            "small": "/assets/images/menus/daging-sapi-small.jpg",
+            "medium": "/assets/images/menus/daging-sapi-medium.jpg",
+            "large": "/assets/images/menus/daging-sapi-large.jpg"
+        },
+        "rating": 4.8,
+        "time": 10
+    },
+    {
+        "id": "6jkcowlqdz9jpuzkm6n",
+        "name": "Es kopi",
+        "category": "Water",
+        "description": "Dengan merendam biji kopi yang telah digiling semalaman lalu dituang ke gelas.",
+        "picture": {
+            "small": "/assets/images/menus/es-kopi-small.jpg",
+            "medium": "/assets/images/menus/es-kopi-medium.jpg",
+            "large": "/assets/images/menus/es-kopi-large.jpg"
+        },
+        "rating": 3.2,
+        "time": 7
+    },
+    {
+        "id": "lqdzcpkkcowl5jpsnuq",
+        "name": "Es krim",
+        "category": "Dessert",
+        "description": "Produk pangan beku yang dibuat melalui kombinasi proses pembekuan dan susu.",
+        "picture": {
+            "small": "/assets/images/menus/es-krim-small.jpg",
+            "medium": "/assets/images/menus/es-krim-medium.jpg",
+            "large": "/assets/images/menus/es-krim-large.jpg"
+        },
+        "rating": 3.8,
+        "time": 8
+    },
+    {
+        "id": "cowlqkkdzsnuqcpl5jp",
+        "name": "Es teh",
+        "category": "Water",
+        "description": "Minuman yang sering diminum saat siang hari karena suhu udara yang panas.",
+        "picture": {
+            "small": "/assets/images/menus/es-teh-small.jpg",
+            "medium": "/assets/images/menus/es-teh-medium.jpg",
+            "large": "/assets/images/menus/es-teh-large.jpg"
+        },
+        "rating": 2.1,
+        "time": 3
+    },
+    {
+        "id": "kjpskcowcpl5nulqdzq",
+        "name": "Ikan teri dan roti",
+        "category": "Fish",
+        "description": "Olahan ikan asin yang sangat disukai oleh orang indonesia.",
+        "picture": {
+            "small": "/assets/images/menus/ikan-teri-dan-roti-small.jpg",
+            "medium": "/assets/images/menus/ikan-teri-dan-roti-medium.jpg",
+            "large": "/assets/images/menus/ikan-teri-dan-roti-large.jpg"
+        },
+        "rating": 3.7,
+        "time": 10
+    },
+    {
+        "id": "kkqdsnucowzcpl5jplq",
+        "name": "Jus alpukat",
+        "category": "Juice",
+        "description": "Mengandung lemak tak jenuh sehingga aman untuk dikonsumsi secara rutin.",
+        "picture": {
+            "small": "/assets/images/menus/jus-alpukat-small.jpg",
+            "medium": "/assets/images/menus/jus-alpukat-medium.jpg",
+            "large": "/assets/images/menus/jus-alpukat-large.jpg"
+        },
+        "rating": 4.0,
+        "time": 5
+    },
+    {
+        "id": "kklqdzcpl5jpscownuq",
+        "name": "Jus apel",
+        "category": "Juice",
+        "description": "Sebuah jus buah yang terbuat dari buah apel. Jua apel adalah salah satu jus buah di dunia",
+        "picture": {
+            "small": "/assets/images/menus/jus-apel-small.jpg",
+            "medium": "/assets/images/menus/jus-apel-medium.jpg",
+            "large": "/assets/images/menus/jus-apel-large.jpg"
+        },
+        "rating": 4.0,
+        "time": 5
+    },
+    {
+        "id": "wlkkczc5jpsnoqdpluq",
+        "name": "Jus jeruk",
+        "category": "Juice",
+        "description": "Buah jeruk. Jeruk merupakan buah yang memiliki kandungan vitamin C yang banyak.",
+        "picture": {
+            "small": "/assets/images/menus/jus-jeruk-small.jpg",
+            "medium": "/assets/images/menus/jus-jeruk-medium.jpg",
+            "large": "/assets/images/menus/jus-jeruk-large.jpg"
+        },
+        "rating": 4.0,
+        "time": 5
+    },
+    {
+        "id": "pl5jkkczwlqdncpsouq",
+        "name": "Jus mangga",
+        "category": "Juice",
+        "description": "Jus yang berasal dari buah mangga yang berwarna kuning ini, rasanya manis.",
+        "picture": {
+            "small": "/assets/images/menus/jus-mangga-small.jpg",
+            "medium": "/assets/images/menus/jus-mangga-medium.jpg",
+            "large": "/assets/images/menus/jus-mangga-large.jpg"
+        },
+        "rating": 4.0,
+        "time": 5
+    },
+    {
+        "id": "kjpsnqdzkcol5uqwlcp",
+        "name": "Jus tomat",
+        "category": "Juice",
+        "description": "Jus tomat yang ampuh membantu melepas dahaga di kala terik matahari.",
+        "picture": {
+            "small": "/assets/images/menus/jus-tomat-small.jpg",
+            "medium": "/assets/images/menus/jus-tomat-medium.jpg",
+            "large": "/assets/images/menus/jus-tomat-large.jpg"
+        },
+        "rating": 4.0,
+        "time": 5
+    },
+    {
+        "id": "kwlckcopsnuqqpl5jdz",
+        "name": "Kari kacang dan telur",
+        "category": "Vegan",
+        "description": "Sayur kari yang menggunakan kacang panjang dan sayur-sayuran.",
+        "picture": {
+            "small": "/assets/images/menus/kari-kacang-dan-telur-small.jpg",
+            "medium": "/assets/images/menus/kari-kacang-dan-telur-medium.jpg",
+            "large": "/assets/images/menus/kari-kacang-dan-telur-large.jpg"
+        },
+        "rating": 4.8,
+        "time": 10
+    },
+    {
+        "id": "kkc5jpzcplwlqsnuodq",
+        "name": "Kari terong",
+        "category": "Vegan",
+        "description": "Hidangan terong/terung kari ini sangat cocok disajikan.",
+        "picture": {
+            "small": "/assets/images/menus/kari-terong-small.jpg",
+            "medium": "/assets/images/menus/kari-terong-medium.jpg",
+            "large": "/assets/images/menus/kari-terong-large.jpg"
+        },
+        "rating": 4.8,
+        "time": 10
+    },
+    {
+        "id": "kcplqsnuowlkdz5jpcq",
+        "name": "Kopi espresso",
+        "category": "Coffee",
+        "description": "minuman yang dihasilkan dengan mengekstraksi biji kopi yang sudah digiling.",
+        "picture": {
+            "small": "/assets/images/menus/kopi-espresso-small.jpg",
+            "medium": "/assets/images/menus/kopi-espresso-medium.jpg",
+            "large": "/assets/images/menus/kopi-espresso-large.jpg"
+        },
+        "rating": 4.2,
+        "time": 10
+    },
+    {
+        "id": "cpl5jpslqdzcuqnokkw",
+        "name": "Matzo farfel",
+        "category": "Desert",
+        "description": "Matzo Farfel is simply crumbled matzo. It's not finely ground, but closer.",
+        "picture": {
+            "small": "/assets/images/menus/matzo-farfel-small.jpg",
+            "medium": "/assets/images/menus/matzo-farfel-medium.jpg",
+            "large": "/assets/images/menus/matzo-farfel-large.jpg"
+        },
+        "rating": 4.8,
+        "time": 10
+    },
+    {
+        "id": "kwlcplkc5jpoqdzsnuq",
+        "name": "Minuman soda",
+        "category": "Water",
+        "description": "Minuman soda biasanya menjadi pilihan orang saat sedang haus dan lelah.",
+        "picture": {
+            "small": "/assets/images/menus/minuman-soda-small.jpg",
+            "medium": "/assets/images/menus/minuman-soda-medium.jpg",
+            "large": "/assets/images/menus/minuman-soda-large.jpg"
+        },
+        "rating": 4.8,
+        "time": 10
+    },
+    {
+        "id": "kwklqdcpozcsnul5jpq",
+        "name": "Napolitana",
+        "category": "Spaghetti",
+        "description": "Spagetti adalah salah satu rasa pasta yang terkenal sekali di Jepang.",
+        "picture": {
+            "small": "/assets/images/menus/napolitana-small.jpg",
+            "medium": "/assets/images/menus/napolitana-medium.jpg",
+            "large": "/assets/images/menus/napolitana-large.jpg"
+        },
+        "rating": 3.9,
+        "time": 25
+    },
+    {
+        "id": "cowlqd4kz6jgic7bq8",
+        "name": "Paket rosemary",
+        "category": "Vegan",
+        "description": "Jika Anda pecinta herbal dan tanaman obat, rosemary mungkin menjadi salah satu kesukaan.",
+        "picture": {
+            "small": "/assets/images/menus/paket-rosemarry-small.jpg",
+            "medium": "/assets/images/menus/paket-rosemarry-medium.jpg",
+            "large": "/assets/images/menus/paket-rosemarry-large.jpg"
+        },
+        "rating": 2.2,
+        "time": 5
+    },
+    {
+        "id": "cz6jowlqd4kgic7bq8",
+        "name": "roket penne",
+        "category": "Pasta",
+        "description": "While the pasta is cooking, shred the chicken breast and place in a large.",
+        "picture": {
+            "small": "/assets/images/menus/roket-penne-small.jpg",
+            "medium": "/assets/images/menus/roket-penne-medium.jpg",
+            "large": "/assets/images/menus/roket-penne-large.jpg"
+        },
+        "rating": 2.8,
+        "time": 5
+    },
+    {
+        "id": "kklqdzcpl5cowjpsnuq",
+        "name": "Salad lengkeng",
+        "category": "Salad",
+        "description": "Salah satu jenis buah-buahan tropis yang cukup populer di kawasan Asias rasanya yang manis.",
+        "picture": {
+            "small": "/assets/images/menus/salad-lengkeng-small.jpg",
+            "medium": "/assets/images/menus/salad-lengkeng-medium.jpg",
+            "large": "/assets/images/menus/salad-lengkeng-large.jpg"
+        },
+        "rating": 4.8,
+        "time": 10
+    },
+    {
+        "id": "kkdzcpl5ucowljpsnqq",
+        "name": "Salad yuzu",
+        "category": "Salad",
+        "description": "Organik yang dibuat dari buah Yuzu yang tumbuh dengan sinar matahari.",
+        "picture": {
+            "small": "/assets/images/menus/salad-yuzu-small.jpg",
+            "medium": "/assets/images/menus/salad-yuzu-medium.jpg",
+            "large": "/assets/images/menus/salad-yuzu-large.jpg"
+        },
+        "rating": 4.8,
+        "time": 10
+    },
+    {
+        "id": "klkcownpl5qdzcjpsuq",
+        "name": "Sirup",
+        "category": "Water",
+        "description": "Cairan yang kental dan memiliki kadar gula terlarut yang tinggi.",
+        "picture": {
+            "small": "/assets/images/menus/sirup-small.jpg",
+            "medium": "/assets/images/menus/sirup-medium.jpg",
+            "large": "/assets/images/menus/sirup-large.jpg"
+        },
+        "rating": 2.9,
+        "time": 5
+    },
+    {
+        "id": "kpl5jpkcoqdzcwlsnuq",
+        "name": "Sosis squash dan mint",
+        "category": "Dessert",
+        "description": "Suatu makanan yang terbuat dari daging cincang, lemak hewan, ternak dan rempah.",
+        "picture": {
+            "small": "/assets/images/menus/sosis-squash-dan-mint-small.jpg",
+            "medium": "/assets/images/menus/sosis-squash-dan-mint-medium.jpg",
+            "large": "/assets/images/menus/sosis-squash-dan-mint-large.jpg"
+        },
+        "rating": 4.2,
+        "time": 15
+    },
+    {
+        "id": "kl5jpowlkcdzcpqsnuq",
+        "name": "Sup Kohlrabi",
+        "category": "Soup",
+        "description": "idangan kubis kohlrabi yang lezat dan sehat, sup krim Kohlrabi.",
+        "picture": {
+            "small": "/assets/images/menus/sup-kohlrabi-small.jpg",
+            "medium": "/assets/images/menus/sup-kohlrabi-medium.jpg",
+            "large": "/assets/images/menus/sup-kohlrabi-large.jpg"
+        },
+        "rating": 4.5,
+        "time": 20
+    },
+    {
+        "id": "kk5jpsncodzcplwlquq",
+        "name": "Teh manis",
+        "category": "Water",
+        "description": "minuman yang terbuat dari larutan teh yang diberi pemanis, biasanya gula tebu.",
+        "picture": {
+            "small": "/assets/images/menus/teh-manis-small.jpg",
+            "medium": "/assets/images/menus/teh-manis-medium.jpg",
+            "large": "/assets/images/menus/teh-manis-large.jpg"
+        },
+        "rating": 3.5,
+        "time": 5
+    },
+    {
+        "id": "kkpl5jpscoqdzcwlnuq",
+        "name": "Toastie salmon",
+        "category": "Fish",
+        "description": "Sandwiches, layering the smoked salmon, cheese, chives, and cooked lemon.",
+        "picture": {
+            "small": "/assets/images/menus/toastie-salmon-small.jpg",
+            "medium": "/assets/images/menus/toastie-salmon-medium.jpg",
+            "large": "/assets/images/menus/toastie-salmon-large.jpg"
+        },
+        "rating": 5.0,
+        "time": 45
+    },
+    {
+        "id": "kl5jpkcqdzcpowlsnuq",
+        "name": "Tumis leek",
+        "category": "Vegan",
+        "description": "Tumis daun bawang dengan api sedang sampai harum. leek tumis bersama udang.",
+        "picture": {
+            "small": "/assets/images/menus/tumis-leek-small.jpg",
+            "medium": "/assets/images/menus/tumis-leek-medium.jpg",
+            "large": "/assets/images/menus/tumis-leek-large.jpg"
+        },
+        "rating": 4.8,
+        "time": 45
+    }
+]

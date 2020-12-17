@@ -1,0 +1,215 @@
+header.fixed {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1020;
+}
+
+header .app-bar-overlay {
+    left: 0;
+    width: 100%;
+    background: linear-gradient(180deg, #607d8b9c, transparent) #fff0;
+    position: absolute;
+    z-index: 1030;
+}
+
+header .app-bar-mobile {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    text-align: center;
+    background: #ffffff;
+    box-shadow: 0 5px 10px 0 rgba(51, 54, 69, 0.1);
+    align-items: center;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+header .app-bar-mobile .app-bar-menu,
+header .app-bar-mobile .app-bar-search {
+    display: flex;
+    min-height: 44px;
+    min-width: 44px;
+}
+
+header .app-bar-mobile .app-bar-logo img {
+    width: 50px;
+}
+
+header .app-bar-mobile .app-bar-menu img,
+header .app-bar-mobile .app-bar-search img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 24px;
+}
+
+header .app-bar-desktop {
+    display: none;
+}
+
+nav#navigationDrawer {
+    width: 250px;
+    position: fixed;
+    background: #ffffff;
+    box-shadow: 0 5px 10px 0 rgba(51, 54, 69, 0.1);
+    border-radius: 5px;
+    padding: 15px;
+    transform: translate(-300px, 0);
+    transition: transform 0.3s ease-in-out;
+    z-index: 1010;
+}
+
+nav#navigationDrawer.open {
+    transform: translate(10px, 0);
+}
+
+nav#navigationDrawer .nav-header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #fbfafa;
+    border-radius: 5px;
+}
+
+nav#navigationDrawer .nav-header .avatar {
+    width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0;
+}
+
+nav#navigationDrawer .nav-header span {
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 16px;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+nav#navigationDrawer ul.nav-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav#navigationDrawer ul.nav-menu li {
+    margin-top: 5px;
+}
+
+nav#navigationDrawer ul.nav-menu li.active,
+nav#navigationDrawer ul.nav-menu li:hover {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+nav#navigationDrawer ul.nav-menu li.active a span {
+    font-weight: bold;
+}
+
+nav#navigationDrawer ul.nav-menu li a {
+    display: inline-flex;
+    width: 100%;
+    font-size: 14px;
+    min-height: 44px;
+    min-width: 44px;
+}
+
+nav#navigationDrawer ul.nav-menu li a .nav-menu-icon {
+    display: inline-flex;
+    text-align: center;
+    padding: 0 10px;
+}
+
+nav#navigationDrawer ul.nav-menu li a .nav-menu-icon img {
+    width: 24px;
+    padding: 3px;
+}
+
+nav#navigationDrawer ul.nav-menu li a span {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 12px;
+}
+
+/* Min Large devices */
+@media (min-width: 992px) {
+    header .app-bar-mobile {
+        display: none;
+    }
+
+    header .app-bar-desktop {
+        display: block;
+        background: #fff;
+        box-shadow: 0 5px 10px 0 rgba(51, 54, 69, 0.1);
+    }
+
+    header .app-bar-desktop .container {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    header .app-bar-desktop .app-bar-menu {
+        text-align: left;
+        padding-left: 1rem;
+    }
+
+    header .app-bar-desktop .app-bar-logo {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    header .app-bar-desktop .app-bar-logo img {
+        width: 50px;
+    }
+
+    header .app-bar-desktop nav {
+        margin-left: auto;
+    }
+
+    header .app-bar-desktop nav ul.nav-menu {
+        list-style-type: none;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(4, 150px);
+        margin: 12px;
+    }
+
+    header .app-bar-desktop nav ul.nav-menu li {
+        margin-right: 5px;
+    }
+
+    header .app-bar-desktop nav ul.nav-menu li.active,
+    header .app-bar-desktop nav ul.nav-menu li:hover {
+        background-color: #f2f2f2;
+        border-radius: 5px;
+    }
+
+    header .app-bar-desktop nav ul.nav-menu li a {
+        display: inline-flex;
+        width: 100%;
+        font-size: 14px;
+        min-height: 44px;
+        min-width: 44px;
+    }
+
+    header .app-bar-desktop nav ul.nav-menu li a .nav-menu-icon {
+        display: inline-flex;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    header .app-bar-desktop nav ul.nav-menu li a .nav-menu-icon img {
+        width: 24px;
+        padding: 3px;
+    }
+
+    header .app-bar-desktop nav ul.nav-menu li a span {
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 2px;
+    }
+
+    header .app-bar-desktop nav ul.nav-menu li.active a span {
+        font-weight: bold;
+    }
+}

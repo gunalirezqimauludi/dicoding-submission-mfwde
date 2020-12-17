@@ -1,0 +1,120 @@
+ol.breadcrumb {
+  padding: .8rem;
+  margin-top: 3.5rem;
+  list-style: none;
+
+  li {
+    display: inline;
+    font-size: .8rem;
+
+    + li:before {
+      padding: 8px;
+      color: rgb(61, 60, 60);
+      content: "/\00a0";
+    }
+
+    a {
+      color: #ffc107;
+      text-decoration: none;
+
+      &:hover {
+        color: #ff9800;
+      }
+    }
+  }
+}
+
+main {
+  .main-list {
+    .main-review {
+      display: grid;
+      grid-template-rows: 1fr;
+
+      .main-card {
+        display: grid;
+        grid-template-columns: 10% 90%;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 5px 10px 0 rgba(51, 54, 69, 0.1);
+        margin-bottom: 15px;
+
+        .col-image {
+          padding: 10px;
+          height: 100%;
+
+          img {
+            width: 100%;
+            border-radius: 10px;
+            object-fit: cover;
+          }
+        }
+
+        .col-info {
+          padding: 15px 5px;
+
+          h4 {
+            margin-top: 10px;
+            margin-bottom: 0px;
+          }
+
+          p {
+            font-size: 10px;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            max-height: 5.6em;
+            line-height: 1.8em;
+            color: #6d6d6d;
+            margin-bottom: 0;
+          }
+
+          p.note {
+            margin-top: 5px;
+          }
+
+          p.date {
+            font-size: 8px;
+            font-style: italic;
+          }
+        }
+      }
+    }
+
+    .main-form {
+      padding: 1.5rem;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 5px 10px 0 rgba(51, 54, 69, 0.1);
+      margin-bottom: 15px;
+
+      .col-form {
+        width: 100%;
+        display: grid;
+        margin-bottom: 15px;
+
+        label {
+          margin-bottom: 10px;
+        }
+
+        input,
+        textarea {
+          width: auto;
+        }
+      }
+    }
+  }
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #9a9a9a;
+  border-radius: 5px;
+  outline-color: #ff9800;
+  font-family: "Lato", sans-serif;
+}
+
+@media (max-width: 767.98px) {
+  main .main-list .main-review .main-card {
+    grid-template-columns: 30% 70%;
+  }
+}

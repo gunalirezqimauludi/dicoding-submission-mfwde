@@ -1,0 +1,81 @@
+{
+    "foods": [{
+            "id": "4kcowlqdz6c7bqjgi8",
+            "name": "Greek Salad",
+            "category": "Vegan",
+            "description": "Dried thyme, chicken breast, fresh pineapple, brown rice, black beans.",
+            "picture": {
+                "small": "assets/images/foods/greek-salad-small.jpg",
+                "medium": "assets/images/foods/greek-salad-medium.jpg",
+                "large": "assets/images/foods/greek-salad-large.jpg"
+            },
+            "rating": 4.8,
+            "time": 10
+        },
+        {
+            "id": "uckcowlqdzljx8i0qu2",
+            "name": "Cezarre Original",
+            "category": "Cheese",
+            "description": "Cheesy mayo sauce and mozzarella, tomatoes, green pepper, onion.",
+            "picture": {
+                "small": "assets/images/foods/cezarre-original-small.jpg",
+                "medium": "assets/images/foods/cezarre-original-medium.jpg",
+                "large": "assets/images/foods/cezarre-original-large.jpg"
+            },
+            "rating": 4.5,
+            "time": 15
+        },
+        {
+            "id": "ddkcowlqdzfe8bbxoaz",
+            "name": "Key West Chicken",
+            "category": "Meat",
+            "description": "Key West chicken is marinated in a combination of lime, soy sauce, honey.",
+            "picture": {
+                "small": "assets/images/foods/key-west-chicken-small.jpg",
+                "medium": "assets/images/foods/key-west-chicken-medium.jpg",
+                "large": "assets/images/foods/key-west-chicken-large.jpg"
+            },
+            "rating": 4.8,
+            "time": 30
+        },
+        {
+            "id": "68kcowlqdzik1zljmlf",
+            "name": "Eggplant Permesan Stacks",
+            "category": "Vegan",
+            "description": "It’s especially great in Italian dishes like eggplant lasagna or this keto eggplant.",
+            "picture": {
+                "small": "assets/images/foods/eggplant-permesan-stacks-small.jpg",
+                "medium": "assets/images/foods/eggplant-permesan-stacks-medium.jpg",
+                "large": "assets/images/foods/eggplant-permesan-stacks-large.jpg"
+            },
+            "rating": 4.0,
+            "time": 35
+        },
+        {
+            "id": "6jkcowlqdz9jpuzkm6n",
+            "name": "Keto Tomato Sauce",
+            "category": "Noodle",
+            "description": "A good tomato sauce elevates your favorite home cooked Italian dishes of a store.",
+            "picture": {
+                "small": "assets/images/foods/keto-tomato-sauce-small.jpg",
+                "medium": "assets/images/foods/keto-tomato-sauce-medium.jpg",
+                "large": "assets/images/foods/keto-tomato-sauce-large.jpg"
+            },
+            "rating": 3.6,
+            "time": 15
+        },
+        {
+            "id": "kkcowlqdzcpl5jpsnuq",
+            "name": "Low Carb BBQ Chicken",
+            "category": "Meat",
+            "description": "Mexican comfort food classic. This low carb enchiladas recipe combines sweet.",
+            "picture": {
+                "small": "assets/images/foods/low-carb-bbq-chicken-small.jpg",
+                "medium": "assets/images/foods/low-carb-bbq-chicken-medium.jpg",
+                "large": "assets/images/foods/low-carb-bbq-chicken-large.jpg"
+            },
+            "rating": 4.2,
+            "time": 35
+        }
+    ]
+}
